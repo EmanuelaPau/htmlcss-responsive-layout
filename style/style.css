@@ -18,6 +18,10 @@ h2 {}
 
 h3 {}
 
+h5 {
+    font-size: 3rem;
+}
+
 /*? HEADER */
 
 .navbar {
@@ -215,7 +219,35 @@ div.au-col-right h1 {
     color: #9792e4;
 }
 
+/* Section get Started */
 
+section.get-started {
+    background-color: #9792e4;
+    padding: 3rem 0;
+    text-align: center;
+    color: white;
+}
+
+section.get-started h3{
+    text-transform: uppercase;
+    font-weight: 200;
+    color: #cac8f1;
+    margin-bottom: 1rem;
+}
+
+section.get-started div.container h5{
+    color: #fdc15f;
+    margin-bottom: 1rem;
+}
+
+section.get-started div.container p{
+    margin-bottom: 1rem;
+}
+
+/* section.get-started div.container ul{
+    flex-wrap: wrap;
+    margin: 2rem 0;
+} */
 
 /*? FOOTER */
 
@@ -235,6 +267,10 @@ div.au-col-right h1 {
 
     justify-content: space-between;
     align-items: center;
+}
+
+.container-xs {
+    max-width: 800px;
 }
 
 /** Colors */
