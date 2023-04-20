@@ -10,6 +10,12 @@ body{
     /* max-width: 480px; */
 }
 
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
 /** Texts */
 
 h1 {}
@@ -251,6 +257,10 @@ section.get-started div.container p{
 
 /*? FOOTER */
 
+footer div.container p {
+    padding:2rem;
+}
+
 /** UTILITIES */
 
 .flex {
@@ -359,6 +369,18 @@ section.get-started div.container p{
     div.au-img i {
         bottom: calc(200px - 3rem);
     }
+
+    /* Section Get starter  */
+    
+    section.get-started div.container {
+        width: 80%;
+    }
+
+    /* FOOTER */
+
+    footer div.container {
+        max-width: 80%;
+    }
     
 }
 
@@ -432,6 +454,17 @@ section.get-started div.container p{
         gap: 1rem;
     }
 
+    /* Section Get starter  */
+    
+    section.get-started div.container {
+        width: 40%;
+    }
+
+    /* FOOTER */
+
+    footer div.container {
+        max-width: 40%;
+    }
    
         
 }   
