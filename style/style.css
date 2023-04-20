@@ -154,7 +154,7 @@ div.partner-container div.block-quote {
     padding: 1rem 0;
 }
 
-div.partner-container img {
+img.circle-img {
     margin: 2rem 0;
     width: 200px;
     height: 200px;
@@ -189,6 +189,30 @@ section.benefits div.container {
     color: #9792e4;
     text-align: left;
 }
+
+/* Section About Us  */
+
+section.about-us {
+    padding: 3rem 0;
+}
+
+div.au-col-left h6 {
+    color: #9792e4;
+}
+
+div.au-img i {
+    position: absolute;
+    left: calc(200px - 4rem);
+    bottom: calc(200px - 1rem);
+
+    font-size: 4rem;
+    color: #9792e4;
+}
+
+div.au-col-right h1 {
+    color: #9792e4;
+}
+
 
 
 /*? FOOTER */
