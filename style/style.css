@@ -124,7 +124,7 @@ section.testimonials {
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 section.testimonials h3 {
@@ -164,6 +164,22 @@ div.partner-container img {
 
 div.partner-container h4{
     text-transform: uppercase;
+}
+
+/* Section Benefits */
+
+section.benefits {
+    padding: 3rem 0;
+    background-color: #9792e4;
+    color: white;
+    text-align: center;
+}
+
+.column.column-white {
+    background-color: white;
+    color: #9792e4;
+    text-align: left;
+    margin: 2rem 0;
 }
 
 
