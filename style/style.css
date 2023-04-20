@@ -175,11 +175,19 @@ section.benefits {
     text-align: center;
 }
 
+section.benefits h2{
+    margin-bottom: 3rem;
+}
+
+section.benefits div.container {
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 .column.column-white {
     background-color: white;
     color: #9792e4;
     text-align: left;
-    margin: 2rem 0;
 }
 
 
@@ -256,6 +264,17 @@ section.benefits {
     div.partner-container div.block-quote {
         width: calc(100% - 200px - 2rem);
     }
+
+    /* Section Benefits */
+    section.benefits div.container {
+        flex-direction: row;
+    }
+    
+    .column.column-white {
+        width: calc(50% - 1.5rem);
+        gap: 1rem;
+    }
+    
 }
 
 
