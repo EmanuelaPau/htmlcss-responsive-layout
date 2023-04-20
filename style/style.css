@@ -19,6 +19,15 @@ h3 {}
 
 /* HEADER */
 
+.navbar {
+    background-color: #0084fd;
+    padding: 1.3rem 0;
+}
+
+.navbar nav {
+    display: none;
+}
+
 /* MAIN */
 
 /* FOOTER */
@@ -31,6 +40,14 @@ h3 {}
 
 .relative {
     position: relative;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* Colors */
