@@ -194,6 +194,8 @@ section.benefits div.container {
 
 section.about-us {
     padding: 3rem 0;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 div.au-col-left h6 {
@@ -298,6 +300,29 @@ div.au-col-right h1 {
         width: calc(50% - 1.5rem);
         gap: 1rem;
     }
+
+    /* Section About us */
+
+    section.about-us {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    div.au-col-left {
+        width: calc((100% / 3) * 2 - 1rem);
+    }
+
+    div.au-col-right {
+        width: calc(100% / 3);
+    }
+
+    div.au-col-right img{
+       margin: 0;
+    }
+
+    div.au-img i {
+        bottom: calc(200px - 3rem);
+    }
     
 }
 
@@ -370,5 +395,7 @@ div.au-col-right h1 {
         width: calc((100% / 3) - 1rem);
         gap: 1rem;
     }
+
+   
         
 }   
