@@ -9,7 +9,7 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Texts */
+/** Texts */
 
 h1 {}
 
@@ -17,7 +17,7 @@ h2 {}
 
 h3 {}
 
-/* HEADER */
+/*? HEADER */
 
 .navbar {
     background-color: #0084fd;
@@ -28,11 +28,11 @@ h3 {}
     display: none;
 }
 
-/* MAIN */
+/*? MAIN */
 
-/* FOOTER */
+/*? FOOTER */
 
-/* UTILITIES */
+/** UTILITIES */
 
 .flex {
     display: flex;
@@ -50,4 +50,23 @@ h3 {}
     align-items: center;
 }
 
-/* Colors */
+/** Colors */
+
+
+/*! Media Queries*/
+
+/* TABLET */
+/** Da 480px in su */
+@media screen and (min-width: 480px) {
+    body {
+      /* background-color: red; */
+    }
+
+/* DESKTOP */
+/** Da 768px in su */
+
+@media screen and (min-width: 768px) {
+    body {
+      /* background-color: blue; */
+    }
+
