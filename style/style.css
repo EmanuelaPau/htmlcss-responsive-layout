@@ -70,6 +70,48 @@ div.column.big {
     object-fit: cover;
 }
 
+/* Section Strategic Planning*/
+section.planning {
+    background-color: #9792e4;
+}
+
+section.planning div.container {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.col-planning-l img {
+    width: 100%;
+    margin: 4rem 0;
+}
+
+div.col-planning-r {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+    width: 90%;
+    background-color: white;
+    text-align: center;
+
+    border-radius: 2rem;
+}
+
+div.col-planning-r img {
+    width: 100%;
+}
+
+div.circle {
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #9792e4;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
 /*? FOOTER */
 
 /** UTILITIES */
