@@ -91,7 +91,7 @@ div.col-planning-r {
 
     margin: 2rem 0;
     padding: 2rem 1rem;
-    width: 90%;
+    width: 100%;
     background-color: white;
     text-align: center;
 
@@ -110,6 +110,10 @@ div.circle {
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
+}
+
+div.col-planning-r p{
+    width: 100%;
 }
 
 /*? FOOTER */
@@ -169,6 +173,7 @@ div.circle {
         border-radius: 1.5rem;
         margin-bottom: 1.5rem;
     }
+
 }
 
 
@@ -218,4 +223,20 @@ div.circle {
         width: 50%;
         text-align: left;
     }
+
+    /* Section Strategic Planning*/
+    
+    section.planning div.container.container-small{
+        gap: 5%;
+        align-items: flex-end;
+    }
+
+    div.col-planning-l {
+        width: 40%;
+    }
+
+    div.col-planning-r {
+        width: 30%;
+    }
+        
 }   
