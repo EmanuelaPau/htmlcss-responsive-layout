@@ -339,5 +339,12 @@ section.benefits div.container {
     div.col-planning-r {
         width: 30%;
     }
+
+    /* Section Benefits */
+    
+    .column.column-white {
+        width: calc((100% / 3) - 1rem);
+        gap: 1rem;
+    }
         
 }   
