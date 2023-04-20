@@ -61,6 +61,7 @@ h3 {}
     body {
       /* background-color: red; */
     }
+}
 
 /* DESKTOP */
 /** Da 768px in su */
@@ -70,3 +71,21 @@ h3 {}
       /* background-color: blue; */
     }
 
+    /* HEADER */
+    .navbar nav {
+        display: inline-block;
+    }
+    
+    .container i {
+        display: none;
+    }
+
+    .container ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .container ul li{
+        margin-right: 1rem;
+    }
+}   
