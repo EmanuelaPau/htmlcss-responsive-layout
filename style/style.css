@@ -7,6 +7,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    /* max-width: 480px; */
 }
 
 /** Texts */
@@ -22,6 +23,7 @@ h3 {}
 .navbar {
     background-color: #0084fd;
     padding: 1.3rem 0;
+    margin-bottom: 3rem;
 }
 
 .navbar nav {
@@ -29,6 +31,50 @@ h3 {}
 }
 
 /*? MAIN */
+
+/* Section About*/
+
+section.about {
+    flex-direction: column;
+}
+
+div.column {
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    width: 100%;
+    padding: 1rem;
+    background-color: #b5ddff;
+    justify-content: center;
+    text-align: center;
+    border-radius: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.column i.icon {
+    font-size: 7rem;
+}
+
+div.column.big {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.column.big h1 {
+    width: 100%;
+}
+
+.column.big p {
+    width: 100%;
+    text-align: left;
+}
+
+.column.big button {
+    width: 100%;
+}
+
+.column.big img {
+    width: 100%;
+}
 
 /*? FOOTER */
 
