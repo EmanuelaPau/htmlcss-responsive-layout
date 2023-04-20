@@ -78,6 +78,7 @@ section.planning {
 section.planning div.container {
     flex-wrap: wrap;
     justify-content: center;
+    padding-bottom: 2rem;
 }
 
 div.col-planning-l img {
@@ -115,6 +116,56 @@ div.circle {
 div.col-planning-r p{
     width: 100%;
 }
+
+/* Section Testimonials*/
+
+section.testimonials {
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+   margin-bottom: 2rem;
+}
+
+section.testimonials h3 {
+    margin: 3rem 0;
+    text-transform: uppercase;
+}
+
+section.testimonials h2 {
+    color: #9792e4;
+}
+
+
+div.partner-container {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    background-color:#9792e4;
+    border-radius: 2rem;
+    width: 100%;
+    color: white;
+    margin: 1rem 0;
+    padding: 2rem 1rem;
+
+}
+
+div.partner-container div.block-quote {
+    padding: 1rem 0;
+}
+
+div.partner-container img {
+    margin: 2rem 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+div.partner-container h4{
+    text-transform: uppercase;
+}
+
 
 /*? FOOTER */
 
