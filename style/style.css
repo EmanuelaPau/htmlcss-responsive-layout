@@ -40,6 +40,20 @@ h5 {
     display: none;
 }
 
+.navbar i {
+    color: white;
+    font-size: 1.5rem;
+}
+
+nav ul {
+    align-items: center;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
 /*? MAIN */
 
 /* Section About*/
@@ -272,7 +286,7 @@ footer div.container p {
 }
 
 .container {
-    max-width: 90%;
+    max-width: 85%;
     margin: 0 auto;
 
     justify-content: space-between;
@@ -283,6 +297,14 @@ footer div.container p {
     max-width: 800px;
 }
 
+.button-white {
+    background-color: white;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    cursor:pointer;
+}
+
 /** Colors */
 
 
@@ -291,8 +313,8 @@ footer div.container p {
 /* TABLET */
 /** Da 480px in su */
 @media screen and (min-width: 480px) {
-    body {
-      /* background-color: red; */
+    .container {
+        max-width: 90%;
     }
 
     /* MAIN */
@@ -395,7 +417,7 @@ footer div.container p {
     }
 
     .container {
-        max-width: 70%;
+        max-width: 60%;
     }
 
     /* HEADER */
