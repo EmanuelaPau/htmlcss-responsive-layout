@@ -95,6 +95,7 @@ div.column {
     text-align: center;
     border-radius: 1.5rem;
     margin-bottom: 1.5rem;
+    transition: all 1s;
 }
 
 .column i.icon {
@@ -111,6 +112,7 @@ div.column {
 div.column.big {
     padding: 1.5rem 1.5rem 0 1.5rem;
     justify-content: space-between;
+    transition: all 1s;
 }
 
 .b-col-left {
@@ -131,6 +133,7 @@ div.b-col-left button {
 .column.big img {
     width: 100%;
     object-fit: cover;
+    transition: all 1s;
 }
 
 /* Section Strategic Planning*/
@@ -151,6 +154,7 @@ section.planning div.container {
 }
 
 div.col-planning-l img {
+    
     width: 100%;
     margin: 4rem 0;
 }
@@ -167,6 +171,7 @@ div.col-planning-r {
     text-align: center;
 
     border-radius: 2rem;
+    transition: all 1s;
 }
 
 div.col-planning-r img {
@@ -482,6 +487,7 @@ footer div.container a {
     .column.big img {
         min-width: 220px;
         max-width: 60%;
+        transition: all 1s;
     }
 
     /* Section strategic planning */
@@ -632,6 +638,7 @@ footer div.container a {
         padding: 2rem 2rem 0 2rem;
         object-fit: contain;
         object-position: bottom;
+        transition: all 1s;
 
     }
 
