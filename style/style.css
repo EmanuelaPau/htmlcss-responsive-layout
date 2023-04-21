@@ -75,6 +75,41 @@ nav ul a {
 nav ul a:hover{
     text-decoration: underline;
 }
+
+div.drop-down-menu {
+    position: absolute;
+    right: 0;
+    top: 2rem;
+    z-index: 1;
+
+    background-color: rgba(255, 255, 255, 0.82);
+    border: 1px solid rgba(128, 128, 128, 0.218);
+    display: none;
+}
+
+div.drop-down-menu ul{
+    list-style-type: none;
+}
+
+div.drop-down-menu ul li {
+    padding: .2rem 0;
+
+}
+
+div.drop-down-menu ul li a {
+    color: black;
+    text-decoration: none;
+    padding: .2rem 1rem;
+}
+
+div.drop-down-menu ul li a:hover {
+    background-color: rgba(230, 230, 230, 0.58);
+}
+
+div.burger-menu:hover div.drop-down-menu {
+    display: inline-block;
+}
+
 /*? MAIN */
 
 /* Section About*/
