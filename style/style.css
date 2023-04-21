@@ -258,6 +258,11 @@ section.benefits {
     text-align: center;
 }
 
+section.benefits h1{
+    color: #9792e4;
+    font-size: 1.55rem;
+}
+
 section.benefits h2{
     margin-bottom: 3rem;
 }
@@ -268,9 +273,15 @@ section.benefits div.container {
 }
 
 .column.column-white {
+    padding: 2rem;
     background-color: white;
     color: #9792e4;
     text-align: left;
+}
+
+.column.column-white p{
+    color: #9a9a9a;
+    font-size: 1rem;
 }
 
 /* Section About Us  */
@@ -370,6 +381,7 @@ footer div.container p {
 
 .button-blue {
     letter-spacing: .2rem;
+    font-weight: 600;
     background-color: #0084fd;
     color: white;
     border: none;
@@ -380,6 +392,9 @@ footer div.container p {
 
 /** Colors */
 
+.bg-purple {
+    background-color: #9792e4;
+}
 
 /*! Media Queries*/
 
@@ -448,13 +463,27 @@ footer div.container p {
     }
 
     /* Section Benefits */
+
+    section.benefits h2 {
+        width: 100%;
+        font-size: 2.6rem;
+    }
+
+    h5.margin-button-s {
+        font-size: 4.3rem;
+        margin-bottom: .8rem;
+    }
+
+    section.benefits h1 {
+        margin-bottom: 1.2rem;
+    }
+
     section.benefits div.container {
         flex-direction: row;
     }
     
     .column.column-white {
-        width: calc(50% - 1.5rem);
-        gap: 1rem;
+        width: calc(50% - 1rem);
     }
 
     /* Section About us */
