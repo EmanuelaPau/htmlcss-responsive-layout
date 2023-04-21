@@ -340,18 +340,26 @@ section.get-started h3{
     text-transform: uppercase;
     font-weight: 200;
     color: #cac8f1;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 section.get-started div.container h5{
+    font-size: 3.8rem;
     color: #fdc15f;
-    margin-bottom: 1rem;
 }
 
 section.get-started div.container p{
-    margin-bottom: 1rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
 }
 
+.copyright {
+    font-size: .9rem;
+}
+
+div.copyright a{
+    color: white;
+}
 /* section.get-started div.container ul{
     flex-wrap: wrap;
     margin: 2rem 0;
@@ -397,6 +405,16 @@ footer div.container p {
     cursor:pointer;
 }
 
+.button-white-big {
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    cursor:pointer;
+}
+
 .button-blue {
     letter-spacing: .2rem;
     font-weight: 600;
@@ -412,6 +430,10 @@ footer div.container p {
 
 .bg-purple {
     background-color: #9792e4;
+}
+
+.color-purple {
+    color: #9792e4;
 }
 
 /*! Media Queries*/
