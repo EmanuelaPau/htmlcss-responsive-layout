@@ -1,0 +1,143 @@
+/* TABLET */
+/** Da 480px in su */
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 90%;
+    }
+
+    /* MAIN */
+    /* Section About */
+    section.about {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    div.column.big {
+        /* align-items: flex-start; */
+
+        padding: 1rem 1rem 0 1rem;
+        width: calc((100% / 3) * 2 - 1rem);
+    }
+
+    div.column {  
+        width: calc((100% / 3) - 1rem);
+        padding: 1rem;
+        background-color: #b5ddff;
+        justify-content: center;
+        text-align: center;
+        border-radius: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .column.big img {
+        min-width: 220px;
+        max-width: 60%;
+        transition: all 1s;
+    }
+
+    /* Section strategic planning */
+
+    div.col-planning-l h2 {
+        font-size:  4rem;
+    }
+
+    /* Section testimonials */
+    
+    div.partner-container {
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+
+        flex-direction: row;
+        text-align: left;
+        padding: 0 1rem;
+    }
+    
+    section.testimonials h2 {
+        font-size: 2.6rem;
+    }
+
+    div.partner-container div.block-quote {
+        width: calc(100% - 200px - 2rem);
+    }
+
+    /* Section Benefits */
+
+    section.benefits h2 {
+        width: 100%;
+        font-size: 2.6rem;
+    }
+
+    h4  .margin-button-s {
+        font-size: 4.3rem;
+        margin-bottom: .8rem;
+    }
+
+    section.benefits h1 {
+        margin-bottom: 1.2rem;
+    }
+
+    section.benefits div.container {
+        flex-direction: row;
+    }
+    
+    .column.column-white {
+        width: calc(50% - 1rem);
+    }
+
+    
+
+    /* Section About us */
+
+    section.about-us {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    div.au-col-left {
+        width: calc((100% / 3) * 2 - 4rem);
+        margin-bottom: 4rem
+    }
+
+    div.au-col-right {
+        width: calc(100% / 3);
+    }
+
+    div.au-img i {
+        bottom: calc(200px - 3rem);
+    }
+
+    /* Section Get starter  */
+    
+    section.get-started div.container {
+        width: 80%;
+    }
+
+    section.get-started div.container button{
+        padding: 1.8rem 6rem;
+        border-radius:4rem;
+        font-size: 1.2rem;
+    }
+
+    section.get-started div.container h5{
+        font-size: 3rem;
+    }
+
+    section.get-started div.container h4{
+        font-size: 6rem;
+    }
+
+    section.get-started div.container p{
+        font-size: 1.1rem;
+        padding: 0 2rem;
+    }
+
+    /* FOOTER */
+
+    footer div.container {
+        max-width: 50%;
+    }
+    
+}

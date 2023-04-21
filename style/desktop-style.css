@@ -1,0 +1,104 @@
+/* DESKTOP */
+/** Da 768px in su */
+
+@media screen and (min-width: 768px) {
+    body {
+      /* background-color: blue; */
+    }
+
+    .container {
+        max-width: 1000px;
+    }
+
+    /* HEADER */
+    .navbar nav {
+        display: inline-block;
+    }
+    
+    .container i.b-menu {
+        display: none;
+    }
+
+    .container ul {
+        display: flex;
+        list-style-type: none;
+    }
+
+    .container ul li{
+        margin-right: 1rem;
+    }
+
+    /* MAIN */
+    /* Section About */
+    div.column.big {
+       flex-direction: row;
+    }
+
+    .column.big img {
+        width: 50%;
+        padding: 2rem 2rem 0 2rem;
+        object-fit: contain;
+        object-position: bottom;
+        transition: all 1s;
+
+    }
+
+    .b-col-left {
+        width: 50%;
+        text-align: left;
+    }
+
+    /* Section Strategic Planning*/
+    
+    section.planning div.container.container-small{
+        gap: 5%;
+        align-items: flex-end;
+    }
+
+    div.col-planning-l {
+        width: 40%;
+    }
+
+    div.col-planning-r {
+        width: 30%;
+    }
+
+    div.col-planning-l h2 {
+        font-size:  1.8rem;
+    }
+
+    /* Section Benefits */
+    
+    .column.column-white {
+        width: calc((100% / 3) - 1rem);
+        gap: 1rem;
+    }
+
+    /* About us */
+
+    div.au-col-right h5 {
+        padding-right: 5rem;
+    }
+    /* Section Get starter  */
+    
+    section.get-started div.container {
+        max-width: 600px;
+    }
+
+    section.get-started div.container p{
+        padding: 0 4rem;
+    }
+
+    /* FOOTER */
+
+    footer div.container {
+        max-width: 600px;
+        padding: 0 4rem;
+    }
+
+    div.footer-links {
+        display: none;
+    }
+   
+        
+}   
