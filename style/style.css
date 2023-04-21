@@ -512,15 +512,12 @@ footer div.container p {
     }
 
     div.au-col-left {
-        width: calc((100% / 3) * 2 - 1rem);
+        width: calc((100% / 3) * 2 - 4rem);
+        margin-bottom: 4rem
     }
 
     div.au-col-right {
         width: calc(100% / 3);
-    }
-
-    div.au-col-right img{
-       margin: 0;
     }
 
     div.au-img i {
@@ -618,6 +615,11 @@ footer div.container p {
         gap: 1rem;
     }
 
+    /* About us */
+
+    div.au-col-right h6 {
+        padding-right: 5rem;
+    }
     /* Section Get starter  */
     
     section.get-started div.container {
