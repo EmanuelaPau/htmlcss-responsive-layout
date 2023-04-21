@@ -6,7 +6,8 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
     /* max-width: 480px; */
 }
 
@@ -23,10 +24,14 @@ h1 {
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
 }
 
 h3 {}
+
+h4 {
+}
+
 
 h5 {
     font-size: 3rem;
@@ -99,12 +104,9 @@ div.column {
     margin-bottom: 2rem;
 }
 
-.column p {
-    margin-bottom: 1.5rem;
-}
-
 div.column.big {
     padding: 1.5rem 1.5rem 0 1.5rem;
+    justify-content: space-between;
 }
 
 .b-col-left {
@@ -117,11 +119,7 @@ div.b-col-left h1{
     margin-bottom: 1.5rem;   
 }
 
-div.b-col-left p{
-    margin-bottom: 1.5rem;
-}
-
-div.b-col-left button{
+div.b-col-left button {
     margin-bottom: 1.5rem;
     font-weight: 600;
 }
@@ -176,12 +174,6 @@ div.col-planning-r h1 {
     margin-bottom: 1.5rem;
 }
 
-div.col-planning-r p {
-    font-style: italic;
-    font-size: 1rem;
-    margin-bottom: 1.5rem;
-}
-
 div.circle {
     justify-content: center;
     align-items: center;
@@ -207,14 +199,20 @@ section.testimonials {
 }
 
 section.testimonials h3 {
-    margin: 3rem 0;
+    margin: 3rem 0 1.5rem;
     text-transform: uppercase;
+    font-weight: 100;
 }
 
 section.testimonials h2 {
     color: #9792e4;
+    margin-bottom: 1.5rem;
 }
 
+section.testimonials p {
+    font-size: 1.2rem;
+   
+}
 
 div.partner-container {
     flex-wrap: wrap;
@@ -229,10 +227,6 @@ div.partner-container {
 
 }
 
-div.partner-container div.block-quote {
-    padding: 1rem 0;
-}
-
 img.circle-img {
     margin: 2rem 0;
     width: 200px;
@@ -241,8 +235,17 @@ img.circle-img {
     object-fit: cover;
 }
 
-div.partner-container h4{
+div.partner-container h1{
     text-transform: uppercase;
+}
+
+div.block-quote {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+div.block-quote i{
+    padding: .3rem;
 }
 
 /* Section Benefits */
@@ -352,6 +355,10 @@ footer div.container p {
     max-width: 800px;
 }
 
+.margin-button-s {
+    margin-bottom: 1.5rem;
+}
+
 .button-white {
     background-color: white;
     border: none;
@@ -409,7 +416,8 @@ footer div.container p {
     }
 
     .column.big img {
-        width: 60%;
+        min-width: 220px;
+        max-width: 60%;
     }
 
     /* Section strategic planning */
@@ -492,7 +500,7 @@ footer div.container p {
     }
 
     .container {
-        max-width: 60%;
+        max-width: 1000px;
     }
 
     /* HEADER */
@@ -522,6 +530,9 @@ footer div.container p {
     .column.big img {
         width: 50%;
         padding: 2rem 2rem 0 2rem;
+        object-fit: contain;
+        object-position: bottom;
+
     }
 
     .b-col-left {
