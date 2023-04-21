@@ -28,6 +28,10 @@
         margin-right: 1rem;
     }
 
+    div.burger-menu:hover div.drop-down-menu {
+        display: none;
+    }
+
     /* MAIN */
     /* Section About */
     div.column.big {
