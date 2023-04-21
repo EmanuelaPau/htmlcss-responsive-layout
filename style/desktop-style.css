@@ -11,11 +11,12 @@
     }
 
     /* HEADER */
+
     .navbar nav {
         display: inline-block;
     }
     
-    .container i.b-menu {
+    div.burger-menu {
         display: none;
     }
 
