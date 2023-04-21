@@ -30,11 +30,15 @@ h2 {
 h3 {}
 
 h4 {
-}
 
+}
 
 h5 {
     font-size: 3rem;
+}
+
+h6 {
+    font-size: 1.8rem;
 }
 
 p {
@@ -292,8 +296,13 @@ section.about-us {
     flex-direction: column;
 }
 
-div.au-col-left h6 {
+div.au-col-left h5 {
     color: #9792e4;
+}
+
+div.au-col-left p {
+    font-size: 1.1rem;
+    line-height: 2.3rem;
 }
 
 div.au-img i {
@@ -305,9 +314,18 @@ div.au-img i {
     color: #9792e4;
 }
 
-div.au-col-right h1 {
+div.au-col-right h6 {
     color: #9792e4;
 }
+
+div.au-col-right button.button-blue {
+    letter-spacing: normal;
+}
+
+div.au-col-right button.button-blue i{
+    margin-right: .7rem;
+}
+
 
 /* Section get Started */
 
