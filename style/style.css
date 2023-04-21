@@ -4,9 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body{
     font-family: 'PT Sans', sans-serif;
+    
     /* font-family: 'Open Sans', sans-serif; */
     /* max-width: 480px; */
 }
@@ -68,6 +72,9 @@ nav ul a {
     color: white;
 }
 
+nav ul a:hover{
+    text-decoration: underline;
+}
 /*? MAIN */
 
 /* Section About*/
@@ -91,7 +98,7 @@ div.column {
     text-align: center;
     border-radius: 1.5rem;
     margin-bottom: 1.5rem;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .column i.icon {
@@ -108,7 +115,7 @@ div.column {
 div.column.big {
     padding: 1.5rem 1.5rem 0 1.5rem;
     justify-content: space-between;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 .b-col-left {
@@ -129,7 +136,7 @@ div.b-col-left button {
 .column.big img {
     width: 100%;
     object-fit: cover;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 /* Section Strategic Planning*/
@@ -167,7 +174,7 @@ div.col-planning-r {
     text-align: center;
 
     border-radius: 2rem;
-    transition: all 1s;
+    transition: all .5s;
 }
 
 div.col-planning-r img {
@@ -191,6 +198,10 @@ div.circle {
 
 div.col-planning-r p{
     width: 100%;
+}
+
+a.arrow-down:active{
+    color: white;
 }
 
 /* Section Testimonials*/
@@ -407,6 +418,14 @@ footer div.container a {
     cursor:pointer;
 }
 
+.button-white:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.button-white:active {
+    background-color: white;
+}
+
 .button-white-big {
     font-size: 1rem;
     font-weight: 700;
@@ -415,6 +434,14 @@ footer div.container a {
     padding: 1rem 4rem;
     border-radius: 2rem;
     cursor:pointer;
+}
+
+.button-white-big:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.button-white-big:active {
+    background-color: white;
 }
 
 .button-blue {
@@ -428,9 +455,25 @@ footer div.container a {
     cursor:pointer;
 }
 
+.button-blue:hover {
+    background-color: #2c91ee;
+}
+
+.button-blue:active {
+    background-color: #0084fd;
+}
+
 /** Colors */
 
-.bg-purple {
+.btt-bg-purple {
+    background-color: #9792e4;
+}
+
+.btt-bg-purple:hover {
+    background-color: #a9a5e7;
+}
+
+.btt-bg-purple:active {
     background-color: #9792e4;
 }
 
