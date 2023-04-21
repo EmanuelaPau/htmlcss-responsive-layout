@@ -353,6 +353,9 @@ section.get-started div.container p{
     margin-bottom: 2rem;
 }
 
+
+
+
 .copyright {
     font-size: .9rem;
 }
@@ -526,6 +529,8 @@ footer div.container p {
         width: calc(50% - 1rem);
     }
 
+    
+
     /* Section About us */
 
     section.about-us {
@@ -550,6 +555,25 @@ footer div.container p {
     
     section.get-started div.container {
         width: 80%;
+    }
+
+    section.get-started div.container button{
+        padding: 1.8rem 6rem;
+        border-radius:4rem;
+        font-size: 1.2rem;
+    }
+
+    section.get-started div.container h6{
+        font-size: 3rem;
+    }
+
+    section.get-started div.container h5{
+        font-size: 6rem;
+    }
+
+    section.get-started div.container p{
+        font-size: 1.1rem;
+        padding: 0 2rem;
     }
 
     /* FOOTER */
@@ -646,6 +670,10 @@ footer div.container p {
     
     section.get-started div.container {
         width: 40%;
+    }
+
+    section.get-started div.container p{
+        padding: 0 4rem;
     }
 
     /* FOOTER */
