@@ -584,7 +584,7 @@ footer div.container a {
     /* FOOTER */
 
     footer div.container {
-        max-width: 80%;
+        max-width: 50%;
     }
     
 }
@@ -674,7 +674,7 @@ footer div.container a {
     /* Section Get starter  */
     
     section.get-started div.container {
-        width: 40%;
+        max-width: 600px;
     }
 
     section.get-started div.container p{
@@ -684,7 +684,12 @@ footer div.container a {
     /* FOOTER */
 
     footer div.container {
-        max-width: 40%;
+        max-width: 600px;
+        padding: 0 4rem;
+    }
+
+    div.footer-links {
+        display: none;
     }
    
         
