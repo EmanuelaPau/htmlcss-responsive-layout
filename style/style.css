@@ -22,7 +22,9 @@ h1 {
     font-size: 1.3rem;
 }
 
-h2 {}
+h2 {
+    font-size: 1.8rem;
+}
 
 h3 {}
 
@@ -32,7 +34,7 @@ h5 {
 
 p {
     font-size: .9rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
 }
 
 /*? HEADER */
@@ -69,6 +71,7 @@ section.about {
     flex-direction: column;
     color: #5e7385;
     font-weight: 700;
+    margin-bottom: 4rem;
 }
 
 div.column {
@@ -129,8 +132,14 @@ div.b-col-left button{
 }
 
 /* Section Strategic Planning*/
+
 section.planning {
     background-color: #9792e4;
+    color: white;
+}
+
+section.planning h2{
+    margin-bottom: 2.8rem;
 }
 
 section.planning div.container {
@@ -151,6 +160,7 @@ div.col-planning-r {
     margin: 2rem 0;
     padding: 2rem 1rem;
     width: 100%;
+    color: black;
     background-color: white;
     text-align: center;
 
@@ -159,6 +169,17 @@ div.col-planning-r {
 
 div.col-planning-r img {
     width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+div.col-planning-r h1 {
+    margin-bottom: 1.5rem;
+}
+
+div.col-planning-r p {
+    font-style: italic;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 div.circle {
@@ -391,6 +412,12 @@ footer div.container p {
         width: 60%;
     }
 
+    /* Section strategic planning */
+
+    div.col-planning-l h2 {
+        font-size:  4rem;
+    }
+
     /* Section testimonials */
     
     div.partner-container {
@@ -515,6 +542,10 @@ footer div.container p {
 
     div.col-planning-r {
         width: 30%;
+    }
+
+    div.col-planning-l h2 {
+        font-size:  1.8rem;
     }
 
     /* Section Benefits */
