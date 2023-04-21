@@ -371,7 +371,12 @@ div.copyright a{
 /*? FOOTER */
 
 footer div.container p {
-    padding:2rem;
+    padding: 2rem 0;
+    line-height: normal;
+}
+
+footer div.container a {
+    color: #9792e4;
 }
 
 /** UTILITIES */
